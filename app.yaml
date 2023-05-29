@@ -1,0 +1,7 @@
+runtime: python311
+env: standard
+
+entrypoint: gunicorn -b :$PORT chatbot:app
+    
+manual_scaling:
+  instances: 1

@@ -1,0 +1,5 @@
+Flask
+gunicorn==20.1.0
+heyoo
+requests
+google-cloud-speech
